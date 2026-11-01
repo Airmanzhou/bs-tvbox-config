@@ -1,0 +1,25 @@
+{
+  "wallpaper": "",
+  "sites": [
+    {
+      "key": "gcmd",
+      "name": "高清影视",
+      "type": 1,
+      "api": "http://gcmd.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": ""
+    }
+  ],
+  "parses": [
+    {
+      "name": "本地",
+      "url": "http://gcmd.cc/api.php/provide/vod/?ac=detail&wd={wd}"
+    }
+  ],
+  "lives": [
+    { "name": "央视频道直播", "type": 0, "url": "https://live.zbds.top/tv/iptv4.txt" },
+    { "name": "卫视地方台", "type": 0, "url": "https://live.zbds.top/tv/iptv4.txt" }
+  ]
+}
